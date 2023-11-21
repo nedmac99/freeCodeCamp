@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>My technical Document</title>
+</head>
+
+
+<nav id="navbar">
+  <header id="nav-head">Java Documentation</header>
+<a class="nav-link" href="#What_is_Java?">What is Java?</a>
+<a class="nav-link"href="#Key_Features_of_Java">Key Features of Java</a>
+<a class="nav-link"href="#Java_Development_Environment">Java Development Environment</a>
+<a class="nav-link"href="#Basic_Java_Syntax">Basic Java Syntax</a>
+<a class="nav-link"href="#Java_Application_Deployment">Java Application Deployment</a>
+
+
+</nav>
+
+<main id="main-doc">
+
+<body>
+
+<section class="main-section" id="What_is_Java?">
+  <header class="header">What is Java?</header>
+    <p>Java is a high-level, versatile, and object-oriented programming language that was developed by Sun Microsystems (now owned by Oracle Corporation) in the mid-1990s. It is known for its "Write Once, Run Anywhere" capability, which means that Java programs can be executed on various platforms without modification. This document will provide an overview of Java, its key features, and its significance in the world of software development.</p>
+</section>
+
+
+
+<section class="main-section" id="Key_Features_of_Java">
+  <header class="header">Key Features of Java</header>
+    <p>Java offers several notable features that make it a popular choice for both application development and system programming. Here are some of its key features:</p>
+
+    <ul>
+<li>Platform Independence</li>      
+<p>Java's platform independence is achieved through the use of the Java Virtual Machine (JVM). Code written in Java is compiled into bytecode, which can run on any platform with a compatible JVM, making it highly portable.</p>
+<li> Object-Oriented</li>
+<p>Java is an object-oriented language, promoting the principles of encapsulation, inheritance, and polymorphism. It allows developers to create reusable and modular code.</p>
+<li>Strongly Typed</li>
+<p>Java enforces strong typing, which means that variables must be declared with specific data types. This helps catch type-related errors at compile time.</p>
+<li>Rich Standard Library</li>
+<p>Java offers a vast standard library with pre-built classes and APIs, making it easier to perform common tasks, such as I/O, network communication, and data manipulation.</p>
+<li>Security</li>
+<p>Java provides a secure execution environment with features like bytecode verification, sandboxing, and access control mechanisms to protect against malicious code.</p>
+    </ul>
+
+</section>
+
+
+<section class="main-section" id="Java_Development_Environment">
+  <header class="header">Java Development Environment</header>
+  <p>To start writing Java applications, you need a development environment. The common components of a Java development environment include:</p>
+  <ul>
+<li>JDK (Java Development Kit)</li>
+<p>The JDK contains the Java Compiler (javac), Java Runtime Environment (JRE), and various tools for developing, debugging, and monitoring Java applications.</p>    
+<li>IDE (Integrated Development Environment)</li>
+<p>Popular IDEs like Eclipse, IntelliJ IDEA, and NetBeans provide a user-friendly environment for Java development, offering features like code completion, debugging, and project management.</p>
+<li>Text Editors</li>
+<p>You can also use lightweight text editors such as Visual Studio Code or Sublime Text, along with command-line tools, for Java development.</p>
+  </ul>
+
+</section>
+
+
+
+<section class="main-section" id="Basic_Java_Syntax">
+  <header class="header">Basic Java Syntax</header>
+    <p>Java has a distinct syntax that every developer should be familiar with. Here are some fundamental elements of Java syntax:</p>
+
+    <ul>
+<li>Data Types and Variables</li>
+<p>Java supports various data types, including int, float, double, String, and more. Variables must be declared with a specific data type before use. An example of it looks like the following: </p>
+<pre><code>// Integer variable
+int age = 25;
+
+// Floating-point variable
+double price = 19.99;
+
+// String variable
+String name = "John Doe";
+
+// Character variable
+char grade = 'A';
+
+// Boolean variable
+boolean isJavaFun = true;</code></pre>
+<li>Control Structures</li>
+<p>Control structures, like if statements, loops (for, while, do-while), and switch statements, are used to manage program flow and decision-making. An example of it looks like the following: </p>
+<pre><code>int score = 85;
+if (score >= 60) {
+    System.out.println("Pass");
+} else {
+    System.out.println("Fail");
+}
+
+
+for (int i = 1; i <= 5; i++) {
+    System.out.println("Iteration " + i);
+}
+
+
+int count = 0;
+while (count < 3) {
+    System.out.println("Count: " + count);
+    count++;
+}
+
+
+int x = 1;
+do {
+    System.out.println("Value of x: " + x);
+    x++;
+} while (x <= 5);
+
+
+int day = 3;
+switch (day) {
+    case 1:
+        System.out.println("Monday");
+        break;
+    case 2:
+        System.out.println("Tuesday");
+        break;
+    default:
+        System.out.println("Other day");
+}
+</code></pre>
+<li>Classes and Objects</li>
+<p>Java is an object-oriented language, so you work with classes and objects. Classes define the blueprint for objects, and objects represent instances of those classes. An example of it looks like the following: </p>
+<pre><code>// Class definition
+class Person {
+    String name;
+    int age;
+
+    void introduce() {
+        System.out.println("My name is " + name + " and I am " + age + " years old.");
+    }
+}
+
+// Object creation and usage
+Person person1 = new Person();
+person1.name = "Alice";
+person1.age = 30;
+person1.introduce();
+</code></pre>
+<li>Methods</li>
+<p>Methods are functions that perform specific tasks. They are defined within classes and can be invoked to execute a set of instructions. An example of it looks like the following: </p>
+<pre><code>// Method definition
+int add(int a, int b) {
+    return a + b;
+}
+
+// Method invocation
+int result = add(5, 3);
+System.out.println("Result: " + result);</code></pre>
+    </ul>
+
+
+</section>
+
+
+
+
+
+<section class="main-section" id="Java_Application_Deployment">
+  <header class="header">Java Application Deployment</header>
+  <p>Once you've developed a Java application, you need to deploy it. This section covers the key aspects of deploying Java applications:</p>
+
+  <ul>
+<li>Packaging</li>
+<p>Java applications are typically packaged in JAR (Java Archive) files or WAR (Web Application Archive) files for web applications.</p>
+<li>Distribution</li>
+<p>You can distribute your Java application as a standalone executable JAR or deploy it to a servlet container for web applications.</p>
+<li>Environment Configuration</li>
+<p>Ensure that the target environment has a compatible JVM and necessary dependencies installed.</p>
+<li>Testing and Monitoring</li>
+<p>Thoroughly test your application and set up monitoring to detect and address any issues in production.</p>
+  </ul>
+
+</section>
+
+
+
+
+  </body>
+
+  </main>
+
+  </html>

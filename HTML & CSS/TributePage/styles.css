@@ -1,0 +1,61 @@
+body {
+    line-height: 1.5;
+    color: #333;
+    background-color: #eddec2;
+  }
+  
+  #title, #subtitle{
+    font-family: Papyrus;
+    text-align: center;
+  }
+  #subtitle{
+    font-size: 20px;
+  }
+  
+  img {
+    border-radius: 20px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    text-align: center;
+    font-size: 22px;
+    margin: 15px 0 5px 0;
+    text-decoration-line: underline;
+  }
+  
+  .time{
+    text-decoration-line: underline;
+    font-weight: bold;
+  }
+  
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+  
+  
+  #quote{
+    font-style: italic;
+    text-align: center;
+    margin: 75px;
+  }
+  
+  .tribute-link{
+    text-align: center;
+    margin: 75px;
+  }

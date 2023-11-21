@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css"> 
+<head>
+  <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title"> eBryIT Survey Form</h1>
+    <p id="description">Please fill out survey below</p> 
+    <form id="survey-form">
+
+  <fieldset>  
+      <label id="name-label" for="name">Name: <input class="name" required placeholder="Enter name: " id="name" type="text"></label>
+      <!-- <label id="email-label" for="email">Email: <input class="email" required placeholder="Enter email: " type="email" id="email"></label>
+      <label id="number-label" for="number">Age: <input class="number" required placeholder="Enter age: " type="number" id="number" min="13" max="120"></label> -->
+      <label id="number-label" for="number">How long have you worked here?(in years) <input class="number" required placeholder="Enter years: " type="number" id="number"></label>
+
+  </fieldset>
+
+  <fieldset>
+    <label>Enter what the chances are that you would use this company or work here again? </label>
+    <select id="dropdown">
+      <option value="">(select one)</option>
+      <option value="1">Unlikely</option>
+      <option value="2">Maybe</option>
+      <option value="3">Likely(sike, never!)</option>
+      </select>
+    </fieldset>
+  
+  <fieldset>
+    <label id="this">Work in Config. department
+    <input value="this" type="radio" name="this-or-that"></label>
+    <label id="or-that">Work in break-fix department
+    <input value= "or-that" type="radio" name="this-or-that"></label>
+    </fieldset>
+
+    <fieldset>
+      <label>Check all that apply: </label>
+        <label>This place is functional
+        <input value="1" type="checkbox"></label>
+        <label>This place is not functional
+        <input value="2" type="checkbox"></label>
+        <label>This is a great work environment
+        <input value="3" type="checkbox"></label>
+        <label>This work environment is terrible
+        <input value="4" type="checkbox"></label>
+        <label>Torch it
+        <input value="5" type="checkbox"></label>
+      </fieldset>
+
+      <fieldset>
+        <label id="comments">Enter any comments/questions below:</label>
+        <textarea>
+          
+          </textarea>
+        </fieldset>
+
+
+        <input id= "submit" type="submit" value="Submit">
+
+    </form>
+    </body>
+
+  </html>

@@ -1,0 +1,117 @@
+body{
+    margin-top: 250px;
+    font-family: Tahoma;
+    background: linear-gradient(90deg, yellow 33%,white,#0094dd);
+  }
+  
+  
+  h1{
+    font-size: 48px;
+  }
+
+
+  header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, yellow 25%,white,#0094dd);
+  }
+  
+  
+  
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  
+  .logo {
+    width: 60vw;
+    margin-top: 10px;
+  }
+  
+  nav > ul {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  a {
+    color: #000;
+  }
+  
+  a:hover{
+    background-color: cyan;
+  }
+  
+  #nav-bar ul {
+    list-style-type: none;
+  }
+  
+  li{
+    margin-right: 15px;
+  }
+  
+  #header-img{
+    border-radius: 30px;
+  }
+  
+  iframe {
+    height: 300px;
+    width: 300px;
+    resize: both;
+    overflow: auto;
+    border: 0;
+  }
+  
+  h2{
+    width: 100%;
+  }
+  
+  h3{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  p{
+    font-size: 20px;
+  }
+  
+  #Pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  
+  #Services{
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+  
+  #Contact_us{
+    margin-top: 75px;
+  }
+  
+  
+  .pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    height: 275px;
+    margin: 10px;
+    border: 1px solid #000;
+    background-color: bisque;
+    border-radius: 10px;
+  }
+  
+  @media only screen and(max-width: 1000px){
+    
+  }

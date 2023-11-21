@@ -184,6 +184,7 @@ body{
       justify-content: center;
       background-color: #87aca3;
       padding-bottom: 2%;
+      list-style-type: "-";
     }
     
     .skill-head{
@@ -195,7 +196,8 @@ body{
     
     .skill-head, .list{
       padding-left: 20%;
-      align-items: center; 
+      align-items: center;
+      list-style-type: "-";
     }
     
     .list{
